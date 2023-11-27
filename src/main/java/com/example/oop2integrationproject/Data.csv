@@ -1,5 +1,5 @@
-"200001,Emma Johnson,emma.johnson@email.com,Password123"
-"200002,Alex Miller,alex.miller@email.com,SecurePass456"
+"200001,Emma Johnson,test@email.com,root,Client"
+"200002,Alex Miller,alex.miller@email.com,SecurePass456,Manager"
 "200003,Olivia Davis,olivia.davis@email.com,Secret123"
 "200004,Liam Taylor,liam.taylor@email.com,PassWord789"
 "200005,Sophia Brown,sophia.brown@email.com,StrongPass456"
