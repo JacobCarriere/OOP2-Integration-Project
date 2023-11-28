@@ -3,6 +3,9 @@ package com.example.oop2integrationproject;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This class allow to manage the showtime view.
+ */
 public class ShowTimeManager {
     private List<Showtime> showtimes;
 

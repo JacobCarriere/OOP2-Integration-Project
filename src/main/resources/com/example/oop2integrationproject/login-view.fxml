@@ -50,11 +50,16 @@
                   <Font size="36.0" />
                </font>
             </Label>
-            <TextField fx:id="emailField" layoutX="117.0" layoutY="120.0" prefHeight="40.0" prefWidth="447.0" promptText="Email">
+            <TextField layoutX="117.0" layoutY="120.0" prefHeight="40.0" prefWidth="447.0" promptText="Email">
                <font>
                   <Font size="18.0" />
                </font>
             </TextField>
+            <PasswordField layoutX="117.0" layoutY="185.0" onAction="#loginButtonClicked" prefHeight="40.0" prefWidth="447.0" promptText="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </PasswordField>
             <Button layoutX="186.0" layoutY="242.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="40.0" prefWidth="89.0" text="Sign In">
                <font>
                   <Font size="18.0" />
@@ -65,11 +70,6 @@
                   <Font size="18.0" />
                </font>
             </Button>
-            <PasswordField fx:id="passwordField" layoutX="117.0" layoutY="185.0" prefHeight="40.0" prefWidth="447.0" promptText="Password">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </PasswordField>
       </children>
     </AnchorPane>
   </children>

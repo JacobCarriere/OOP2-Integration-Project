@@ -1,5 +1,8 @@
 package com.example.oop2integrationproject;
 
+/**
+ * This class allow to manage movies and set their genre and name, also there is an ID for unique movies
+ */
 public class Movie {
     private String aName;
     private int aMovieID;

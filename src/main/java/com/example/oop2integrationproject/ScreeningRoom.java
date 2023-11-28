@@ -1,5 +1,8 @@
 package com.example.oop2integrationproject;
 
+/**
+ * This class extends from the Movie Class to show the movies and also show the room that the movie will be at
+ */
 public class ScreeningRoom extends Movie {
     private int aRoom;
 

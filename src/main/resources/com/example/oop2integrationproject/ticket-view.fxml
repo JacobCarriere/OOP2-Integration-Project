@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop2integrationproject.TicketView">
+   <children>
+      <Label layoutX="88.0" layoutY="200.0" text="Ticket number :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="240.0" layoutY="194.0" prefHeight="39.0" prefWidth="206.0" />
+      <Label layoutX="240.0" layoutY="41.0" text="Ticket View">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="240.0" layoutY="317.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="123.0" text="Close">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

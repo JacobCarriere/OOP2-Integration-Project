@@ -1,7 +1,8 @@
 package com.example.oop2integrationproject;
 
-import java.util.Objects;
-
+/**
+ * This class is for the Clients, it will help validate all the clients
+ */
 public class Client {
     private final String clientID;
     private final String name;

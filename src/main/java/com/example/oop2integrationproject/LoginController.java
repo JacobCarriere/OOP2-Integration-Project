@@ -16,6 +16,9 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * This is the login controller that will allow the user to enter the application as manager or client
+ */
 public class LoginController {
 
     private static final Logger LOGGER = Logger.getLogger(LoginController.class.getName());
@@ -29,7 +32,7 @@ public class LoginController {
     private static final String CSV_FILE_PATH = "src/main/java/com/example/oop2integrationproject/Data.csv";
 
     public void SignUpButtonClicked(ActionEvent actionEvent) {
-        // Add SignUp logic if needed
+
     }
 
     private String isUserValid() {
@@ -56,7 +59,7 @@ public class LoginController {
 
     private void openViewBasedOnRole(String userRole) {
         try {
-            String fxmlFile = (userRole.equals("Client")) ? "movie-view.fxml" : "ManagerView.fxml";
+            String fxmlFile = (userRole.equals("Client")) ? "client-movie-view.fxml" : "manager-home-view.fxml";
             FXMLLoader loader = new FXMLLoader(getClass().getResource(fxmlFile));
             Parent root = loader.load();
 
