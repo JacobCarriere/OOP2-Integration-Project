@@ -6,17 +6,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0"
-            prefWidth="246.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop2integrationproject.MovieController">
-   <ListView layoutX="23.0" layoutY="69.0" prefHeight="383.0" prefWidth="200.0"/>
-   <Label layoutX="95.0" layoutY="32.0" text="Movies">
-      <font>
-         <Font size="18.0"/>
-      </font>
-   </Label>
-   <Button layoutX="51.0" layoutY="467.0" mnemonicParsing="false" onAction="#OnShowTime" text="See Showtime">
-      <font>
-         <Font size="18.0"/>
-      </font>
-   </Button>
+
+<AnchorPane prefHeight="529.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop2integrationproject.ClientMovieController">
+   <children>
+      <Label layoutX="142.0" layoutY="14.0" text="Movies">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ListView layoutX="80.0" layoutY="65.0" prefHeight="379.0" prefWidth="200.0" />
+      <Button layoutX="85.0" layoutY="453.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="193.0" text="See Showtime">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>

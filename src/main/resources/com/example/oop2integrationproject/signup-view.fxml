@@ -39,45 +39,40 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop2integrationproject.SignupController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="412.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
       <children>
-            <TextField layoutX="115.0" layoutY="269.0" prefHeight="40.0" prefWidth="447.0" promptText="Password">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </TextField>
             <Label layoutX="276.0" layoutY="14.0" text="Sign Up">
                <font>
                   <Font size="36.0" />
                </font>
             </Label>
-            <TextField layoutX="115.0" layoutY="207.0" prefHeight="40.0" prefWidth="447.0" promptText="Email">
+            <TextField fx:id="firstName" layoutX="115.0" layoutY="96.0" prefHeight="40.0" prefWidth="217.0" promptText="First Name">
                <font>
                   <Font size="18.0" />
                </font>
             </TextField>
-            <Button layoutX="275.0" layoutY="322.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="89.0" text="Sign Up">
+            <TextField fx:id="lastName" layoutX="339.0" layoutY="96.0" prefHeight="40.0" prefWidth="217.0" promptText="Last Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="email" layoutX="116.0" layoutY="145.0" prefHeight="40.0" prefWidth="440.0" promptText="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="password" layoutX="116.0" layoutY="200.0" prefHeight="40.0" prefWidth="440.0" promptText="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Button layoutX="276.0" layoutY="322.0" mnemonicParsing="false" onAction="#signupClickedButton" prefHeight="40.0" prefWidth="89.0" text="Sign Up">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <TextField layoutX="115.0" layoutY="96.0" prefHeight="40.0" prefWidth="217.0" promptText="First Name">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </TextField>
-            <TextField layoutX="339.0" layoutY="96.0" prefHeight="40.0" prefWidth="218.0" promptText="Last Name">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </TextField>
-            <TextField layoutX="115.0" layoutY="148.0" prefHeight="40.0" prefWidth="447.0" promptText="Username">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </TextField>
       </children>
     </AnchorPane>
   </children>

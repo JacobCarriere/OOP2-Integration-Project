@@ -50,12 +50,12 @@
                   <Font size="36.0" />
                </font>
             </Label>
-            <TextField layoutX="117.0" layoutY="120.0" prefHeight="40.0" prefWidth="447.0" promptText="Email">
+            <TextField layoutX="117.0" layoutY="120.0" prefHeight="40.0" prefWidth="447.0" promptText="Email" fx:id="emailField">
                <font>
                   <Font size="18.0" />
                </font>
             </TextField>
-            <PasswordField layoutX="117.0" layoutY="185.0" onAction="#loginButtonClicked" prefHeight="40.0" prefWidth="447.0" promptText="Password">
+            <PasswordField layoutX="117.0" layoutY="185.0"  prefHeight="40.0" prefWidth="447.0" promptText="Password" fx:id="passwordField">
                <font>
                   <Font size="18.0" />
                </font>
